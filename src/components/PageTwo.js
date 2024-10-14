@@ -10,12 +10,11 @@ function PageTwo() {
         // Simulate a database call
         const fetchFromDatabase = async () => {
             try {
-                // This is where you'd normally connect to a database and fetch records
-                // For example:
+                // This is where developer normally connect to a database and fetch records
                 // const result = await database.query('SELECT * FROM records');
 
                 // Simulate with dummy data
-                const result = { id: 1, name: "John Doe", occupation: "Developer" };
+                const result = { id: 1, name: "Milton", role: "Database Engineer" };
 
                 // Simulate network/database latency
                 await new Promise(resolve => setTimeout(resolve, 1000));
@@ -36,11 +35,10 @@ function PageTwo() {
 
     return (
         <div>
-            <h1>Database Data Example</h1>
+            <h1>Database Data</h1>
             {dbData ? (
                 <div className="db-data">
-                    <h2>{dbData.name}</h2>
-                    <p>{dbData.occupation}</p>
+                    <p>{dbData.name} working as {dbData.role}</p>
                 </div>
             ) : (
                 <p>No data available</p>

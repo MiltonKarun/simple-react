@@ -10,12 +10,12 @@ function PageOne() {
         // Simulate API call
         const fetchData = async () => {
             try {
-                // This is where you'd place the actual API call, e.g.:
+                // This is where developer can place the actual API call
                 // const response = await fetch('https://api.example.com/data');
                 // const result = await response.json();
 
-                // For now, simulate with dummy data
-                const result = { id: 1, title: "Milton", description: "Software" };
+                // Simulate with dummy data
+                const result = { id: 1, name: "Milton", role: "Software Engineer" };
 
                 // Simulate network latency
                 await new Promise(resolve => setTimeout(resolve, 1000));
@@ -36,11 +36,10 @@ function PageOne() {
 
     return (
         <div>
-            <h1>API Data Example</h1>
+            <h1>API Data</h1>
             {data ? (
                 <div className="api-data">
-                    <h2>{data.title}</h2>
-                    <p>{data.description}</p>
+                    <p>{data.name} working as {data.role}</p>
                 </div>
             ) : (
                 <p>No data available</p>
