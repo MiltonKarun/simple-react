@@ -1,7 +1,7 @@
 
-# Single Page Application (SPA) - React
+# Single Page Application - React
 
-This project is a basic Single Page Application built using React. It demonstrates navigation between multiple pages and simulates API and database calls with dummy data. The project is designed as a part of a technical test.
+This project is a basic Single Page Application built using React. It demonstrates navigation between multiple pages, simulates API and database calls with dummy data. The project is designed as a part of a technical test at Invest and Fund.
 ## Features
 
 - **React Router**: Provides navigation between pages.
@@ -17,7 +17,7 @@ This project is a basic Single Page Application built using React. It demonstrat
 Before running this project, ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v12 or higher)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [npm](https://www.npmjs.com/)
 
 ### Installation
 

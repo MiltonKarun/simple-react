@@ -32,7 +32,7 @@ function App() {
         </div>
 
         <footer>
-          <p>Simple React APP © 2024</p>
+          <p>Simple React App © 2024</p>
         </footer>
       </div>
     </Router>

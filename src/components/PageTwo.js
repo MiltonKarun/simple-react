@@ -38,7 +38,7 @@ function PageTwo() {
             <h1>Database Data</h1>
             {dbData ? (
                 <div className="db-data">
-                    <p>{dbData.name} working as {dbData.role}</p>
+                    <p>{dbData.name} working as a {dbData.role}</p>
                 </div>
             ) : (
                 <p>No data available</p>

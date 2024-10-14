@@ -39,7 +39,7 @@ function PageOne() {
             <h1>API Data</h1>
             {data ? (
                 <div className="api-data">
-                    <p>{data.name} working as {data.role}</p>
+                    <p>{data.name} working as a {data.role}</p>
                 </div>
             ) : (
                 <p>No data available</p>
